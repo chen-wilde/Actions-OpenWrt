@@ -17,6 +17,7 @@
 - 将 rclone 配置文件保存在仓库 Secrets 并命名为 `RCLONE_CONFIG`，确保 token 不会泄露。
 - 在仓库根目录创建 `files` 目录，这个目录映射了固件的系统目录，将需要自定义或者添加的文件放置在此，例如 uhttpd 、firewall 等，实现固件到手即用。
 - 为了 `.config` 文件的鲁棒性，尽量只保留有效配置，即在 `make menuconfig` 界面选定的配置，遇到依赖链问题保留最小组件即可。若不确定可以在本地创建配置文件再执行 `make defconfig` 看配置是否还在，在即为有效配置。
+- 在 Cache 步骤添加 `mixkey` 密钥允许 workflow 区分缓存。
 
 ## Credits
 
