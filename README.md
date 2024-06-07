@@ -4,12 +4,12 @@
 
 ## Usage
 
-- 通过修改 `REPO_URL` 和 `REPO_BRANCH` 变量自定义 openwrt 分支。
-- 编辑 deps 文件内容来安装 openwrt 分支所需依赖。
+- 通过修改 `REPO_URL` 和 `REPO_BRANCH` 变量自定义 OpenWrt 分支。
+- 编辑 deps 文件内容来安装 OpenWrt 分支所需依赖。
 - 在仓库根目录上传 `.config` 文件，它记录了编译配置，用于自定义插件和功能，在本地或虚拟机生成。
 - `DEVICE` 变量代表设备名，这里用作 tag 的一部分。
 - 两个 diy 脚本分别在更新与安装 feeds 的前后执行，把对源码修改脚本放在这里，比如更改默认ip、添加包等。
-- 使用 `UPLOAD_ONEDRIVE` 来上传到 OneDrive 网盘，`ONEDRIVE_DIR` 为网盘目录。
+- 使用 `UPLOAD_ONEDRIVE` 来上传到 OneDrive 网盘，`ONEDRIVE_DIR` 为目标路径。
 
 ## Tips
 
