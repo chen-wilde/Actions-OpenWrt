@@ -24,7 +24,7 @@ env:
   DIY_P2_SH: diy-part2.sh
   UPLOAD_FIRMWARE: true
   UPLOAD_RELEASE: true
-  UPLOAD_ONEDRIVE: true
+  UPLOAD_ONEDRIVE: false
   ONEDRIVE_DIR: onedrive:/
   TZ: Asia/Shanghai
 
